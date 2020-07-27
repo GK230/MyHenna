@@ -1,0 +1,146 @@
+body {
+    font-size: 14px;
+    text-align: left;
+}
+
+h2  {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.portfolio {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    margin-top: 10%;
+}
+
+img {
+    width: 50%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-left: 20%;
+  margin-right: -20%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image4, .sub4 {
+    margin-top: 5%;
+}
+
+.image2, .sub2 {
+    margin-left: 10%;
+}
+
+.image3, .sub3 {
+    margin-left: 10%;
+}
+
+.image1, .sub1 {
+    margin-left: 20%;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+}
+
+.sub1 {
+    margin-bottom: 5%;
+}
+
+.sub4 {
+    margin-top: 5%;
+}
+
+nav {
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+a {
+    color: green;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    padding-left: -10%;
+}
+
+a:hover {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+/* Responsive breakpoints */
+
+
+@media (max-width: 575.98px) {
+    nav {
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+
+    .image1 {
+        width: 150%;
+    }
+
+    .image2, .image3 {
+        width: 150%;
+        padding-top: 250%;
+        position: relative;
+        left: -30%;
+    }
+
+    .image4 {
+        position: relative;
+        top: -50%;
+        width: 200%;
+        left: -50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav {
+        margin-top: 5%;
+        margin-left: 5%;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        margin-top: 10%;
+    }
+}

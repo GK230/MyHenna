@@ -1,0 +1,133 @@
+body {
+    font-size: 14px;
+    text-align: left;
+}
+
+h2 {
+    position: relative;
+    margin-left: 10%;
+    padding-top: -10%;
+    top: 10%;
+}
+
+.examples {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+.indian,.arabic, .marrakech,.persian {
+    margin-left: 15%;
+}
+
+.arabic,.persian {
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+.arabictitle, .persiantitle {
+    position: relative;
+    left: 20%;
+    margin-top: 5%;
+}
+
+
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav {
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+a {
+    color: green;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    padding-left: -10%;
+}
+
+a:hover {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+/* Responsive breakpoints */
+
+
+@media (max-width: 575.98px) {
+    nav {
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+
+    .persian {
+        width: 50%;
+    }
+
+    .marrakech {
+        width: 75%;
+    }
+
+    .indian {
+        width: 75%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    .persian {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav {
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    .persian {
+        left: 5%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .persian {
+        left: 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        margin-top: 5%;
+    }
+}

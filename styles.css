@@ -1,0 +1,76 @@
+body {
+    font-size: 14px;
+    /*text-align: center;*/
+}
+
+.card {
+    border: solid 1px;
+    box-shadow: 10px 10px;
+    height: 50%;
+    width: 50%;
+    padding: 5%;
+    margin: 25vh 25vw;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 5em;
+    color: green;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 10%;
+}
+
+nav {
+    margin-top: -10%;
+    padding: 0 20%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+a {
+    color: green;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #af7f29;
+    text-decoration: none;
+}
+
+ /*Responsive breakpoints*/
+
+
+@media (max-width: 575.98px) {
+    nav {
+        /*margin-top: 30%;*/
+        padding: 0%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    nav {
+        padding: 0 10%;
+    }
+}
+
